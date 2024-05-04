@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E9CDB10E-FE16-4F19-BC9C-15F35AC138FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OtelOtomasyonu</RootNamespace>
+    <AssemblyName>OtelOtomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Görünüm\OdaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\OdaEkle.Designer.cs">
+      <DependentUpon>OdaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\Faturalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\Faturalar.Designer.cs">
+      <DependentUpon>Faturalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\Musteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\Musteriler.Designer.cs">
+      <DependentUpon>Musteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\ExtraServis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\ExtraServis.Designer.cs">
+      <DependentUpon>ExtraServis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\YemeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\YemeMenu.Designer.cs">
+      <DependentUpon>YemeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Görünüm\GirisMenusus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\GirisMenusus.Designer.cs">
+      <DependentUpon>GirisMenusus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\VeriKatman.cs" />
+    <Compile Include="Model\VeritabaniYoneticisi.cs" />
+    <Compile Include="Görünüm\Rezervasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Görünüm\Rezervasyon.Designer.cs">
+      <DependentUpon>Rezervasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Görünüm\OdaEkle.resx">
+      <DependentUpon>OdaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\Faturalar.resx">
+      <DependentUpon>Faturalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\Musteriler.resx">
+      <DependentUpon>Musteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\ExtraServis.resx">
+      <DependentUpon>ExtraServis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\YemeMenu.resx">
+      <DependentUpon>YemeMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\GirisMenusus.resx">
+      <DependentUpon>GirisMenusus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Görünüm\Rezervasyon.resx">
+      <DependentUpon>Rezervasyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

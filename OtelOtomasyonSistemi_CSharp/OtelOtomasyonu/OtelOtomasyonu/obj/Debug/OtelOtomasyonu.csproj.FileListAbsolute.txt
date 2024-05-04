@@ -1,0 +1,17 @@
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\bin\Debug\OtelOtomasyonu.exe.config
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\bin\Debug\OtelOtomasyonu.exe
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\bin\Debug\OtelOtomasyonu.pdb
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.OdaEkle.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.Faturalar.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.Musteriler.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.ExtraServis.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.YemeMenu.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.Giris.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.GirisMenusus.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.Rezervasyon.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.Properties.Resources.resources
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.csproj.GenerateResource.cache
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.exe
+C:\Users\malip\Desktop\projelerim\Hotel_Management_System_CSharp-main\Project_HMS\Project_HMS\obj\Debug\OtelOtomasyonu.pdb
